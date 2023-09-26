@@ -7,7 +7,7 @@ pipeline {
             yamlFile "$podTemplate"
         }
     }
-    environment {e
+    environment {
         NAME = "librarymanagement"
         // VERSION = "${env.GIT_COMMIT}"
         VERSION = "${env.BUILD_ID}"
